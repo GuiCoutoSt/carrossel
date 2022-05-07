@@ -5,30 +5,6 @@ body {
   font-family: "Inter", sans-serif;
 }
 
-h1 {
-  font-size: 2rem;
-  font-weight: 900;
-  color: var(--color-primary);
-}
-
-button {
-  background-color: var(--color-primary);
-  border: none;
-  border-radius: 50%;
-  width: 32px;
-  height: 32px;
-  cursor: pointer;
-}
-
-button:hover {
-  filter: brightness(1.5);
-  transition: 0.3s;
-}
-
-button:not(:hover) {
-  transition: 0.3s;
-}
-
 .container {
   display: flex;
   justify-content: center;
@@ -43,10 +19,9 @@ button:not(:hover) {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 1000px;
+  width: 1250px;
   height: 500px;
-
-  background-color: #f4f8fe;
+  background-color: var(--color-tertiary);
   border-radius: 10px;
 }
 
@@ -54,19 +29,40 @@ button:not(:hover) {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 75%;
+  width: 85%;
+  padding: 15px;
+}
+
+.carousel__head__title {
+  font-size: 2rem;
+  font-weight: 900;
+  color: var(--color-primary);
+}
+
+.carousel__head__button {
+  background-color: var(--color-primary);
+  border: none;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+}
+
+.carousel__head__button:hover {
+  filter: brightness(1.5);
+  transition: 0.3s;
+}
+
+.carousel__head__button:not(:hover) {
+  transition: 0.3s;
 }
 
 .carousel__content {
   display: flex;
   align-self: flex-end;
-  width: 90%;
-  padding: 20px;
-  padding-right: 0;
-  padding-left: 50px;
+  width: 95%;
+  padding: 20px 0px 20px 20px;
   overflow: hidden;
-  transition: all 0.6s ease-in-out;
-  -webkit-transition: all 0.6s ease-in-out;
 }
 
 .carousel__card {
@@ -78,15 +74,15 @@ button:not(:hover) {
   background-color: #fff;
 }
 
-.main-info__title {
+.card__main-info {
+  padding: 20px 20px;
+}
+
+.card__main-info__title {
   margin: 15px 0;
   font-size: 1rem;
   font-weight: 700;
   color: var(--color-primary);
-}
-
-.card__main-info {
-  padding: 20px 15px;
 }
 
 .card__workload-info {
@@ -96,7 +92,8 @@ button:not(:hover) {
   border-top: 1px solid var(--color-quaternary);
 }
 
-.workload-info__text {
+.card__workload-info__text {
+  margin-left: 15px;
   font-size: 1rem;
   font-weight: 700;
   color: var(--color-secondary);
@@ -105,6 +102,18 @@ button:not(:hover) {
 :root {
   --color-primary: #093366;
   --color-secondary: #bec8d8;
-  --color-tertiary: ##e5e5e5;
+  --color-tertiary: #f4f8fe;
   --color-quaternary: #f2f7fe;
+}
+
+@media (max-width: 1440px) {
+  .carousel {
+    width: 750px;
+  }
+}
+
+@media (max-width: 768px) {
+  .carousel {
+    width: 500px;
+  }
 }

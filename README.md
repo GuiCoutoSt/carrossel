@@ -7,7 +7,7 @@ Essa aplicação foi desenvolvida em `HTML`, `CSS` e `JavaScript Vanilla` (puro)
 A estrutura de arquivos foi feita da seguinte forma:
 
 ```
-**carrossel/
+carrossel/
 ├── src/
 │   ├── assets/
 │   │   ├── css/
@@ -22,7 +22,7 @@ A estrutura de arquivos foi feita da seguinte forma:
 │   │   └── js/
 │   │   │   └── script.js
 ├── index.html
-└── README.md**
+└── README.md
 ```
 
 - **`index.html`**: Aqui se encontra a estrutura html da aplicação. Esse arquivo não está dentro do diretório `src` a fim de facilitar seu _deploy_ com o GitHub Pages.

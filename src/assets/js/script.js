@@ -12,7 +12,7 @@ previewButton.addEventListener(
       carouselContent.scrollLeft -= 10;
       scrollMeasure += 10;
 
-      if (scrollMeasure >= 325) {
+      if (scrollMeasure >= 350) {
         clearInterval(intervalID);
       }
     }, 10);
@@ -29,7 +29,7 @@ nextButton.addEventListener(
       carouselContent.scrollLeft += 10;
       scrollMeasure += 10;
 
-      if (scrollMeasure >= 325) {
+      if (scrollMeasure >= 350) {
         clearInterval(intervalID);
       }
     }, 10);

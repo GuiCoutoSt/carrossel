@@ -39,7 +39,16 @@ body {
   color: var(--color-primary);
 }
 
-.carousel__head__button {
+.carousel__head__box {
+  display: flex;
+  justify-content: space-between;
+  width: 75px;
+}
+
+.carousel__head__box__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: var(--color-primary);
   border: none;
   border-radius: 50%;

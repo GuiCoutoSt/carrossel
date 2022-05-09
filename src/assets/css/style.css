@@ -57,12 +57,12 @@ body {
   cursor: pointer;
 }
 
-.carousel__head__button:hover {
+.carousel__head__box__button:hover {
   filter: brightness(1.5);
   transition: 0.3s;
 }
 
-.carousel__head__button:not(:hover) {
+.carousel__head__box__button:not(:hover) {
   transition: 0.3s;
 }
 

@@ -2,6 +2,10 @@
 
 Essa aplicação foi desenvolvida em `HTML`, `CSS` e `JavaScript Vanilla` (puro).
 
+## Live Version
+
+[GitHub Page][https://guicoutost.github.io/carrossel/]
+
 ## Estrutura
 
 A estrutura de arquivos foi feita da seguinte forma:

@@ -41,7 +41,7 @@ carrossel/
 ### `git`
 
 - Para proteger a _branch_ `main`, utilizada para o _deploy_ da aplicação, foi criada uma _branch_ `development` para o desenvolvimento da aplicação. Posteriormente, quando a aplicação estava pronta, foi realizado um merge entre `main` e `development`.
-- Os _commits_ seguiram a especificação [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/), para trazer mais padronização e organização ao projeto.
+- Os _commits_ seguiram a especificação [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/), para trazer maior padronização e organização ao projeto.
 
 ### `html`
 
@@ -51,7 +51,7 @@ carrossel/
 
 - A estilização foi construída buscando fidedignidade com o layout apresentado no `Figma`.
 - Foi utilizado um `reset stylesheet` a fim de reduzir as inconsistências de estilo do _browser_, como valores _default_ de `line-height`, `margin`, `fontsize` dos `headings`, dentre outros.
-- Para trazer mais padronização e organização à estilização do projeto, foi utilizada a metodologia `BEM` (Block, Element, Modifier).
+- Para trazer maior padronização e organização à estilização do projeto, foi utilizada a metodologia `BEM` (Block, Element, Modifier).
 - Foram utilizadas `@media queries` para que a aplicação se tornasse responsiva, trazendo mais acessibilidade para usuários que utilizam dispositivos com telas menores.
 
 ### `javascript`

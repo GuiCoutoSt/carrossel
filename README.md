@@ -40,7 +40,7 @@ carrossel/
 
 ### `git`
 
-- Para proteger a _branch_ `main`, utilizada para o _deploy_ da aplicação, foi criada uma _branch_ `development` para o desenvolvimento da aplicação. Posteriormente, quando a aplicação estava pronta, foi realizado um merge entre `main` e `development`.
+- Para manter a integridade da _branch_ `main`, utilizada para o _deploy_ da aplicação, foi criada uma _branch_ `development` para o desenvolvimento da aplicação. Posteriormente, quando a aplicação estava pronta, foi realizado um merge entre `main` e `development`.
 - Os _commits_ seguiram a especificação [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/), para trazer maior padronização e organização ao projeto.
 
 ### `html`

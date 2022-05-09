@@ -4,7 +4,7 @@ Essa aplicação foi desenvolvida em `HTML`, `CSS` e `JavaScript Vanilla` (puro)
 
 ## Live Version
 
-[GitHub Page][https://guicoutost.github.io/carrossel/]
+[GitHub Page](https://guicoutost.github.io/carrossel/)
 
 ## Estrutura
 
